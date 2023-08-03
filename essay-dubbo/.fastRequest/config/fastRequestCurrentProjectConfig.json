@@ -1,0 +1,37 @@
+{
+	"dataList":[
+		{
+			"hostGroup":[
+				{
+					"env":"local",
+					"url":"http://localhost:8081"
+				}
+			],
+			"name":"order-consumer"
+		}
+	],
+	"envList":[
+		"local"
+	],
+	"headerList":[],
+	"postScript":"",
+	"preScript":"",
+	"projectList":[
+		"order-consumer"
+	],
+	"syncModel":{
+		"branch":"master",
+		"domain":"https://github.com",
+		"enabled":false,
+		"namingPolicy":"byDoc",
+		"owner":"",
+		"repo":"",
+		"repoUrl":"",
+		"syncAfterRun":false,
+		"token":"",
+		"type":"github"
+	},
+	"urlEncodedKeyValueList":[],
+	"urlParamsKeyValueList":[],
+	"urlSuffix":""
+}
