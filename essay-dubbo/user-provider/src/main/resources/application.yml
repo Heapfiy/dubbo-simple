@@ -1,0 +1,13 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: dubbo-provider
+dubbo:
+  registry:
+    address: zookeeper://localhost:2181  # 连接到注册中心
+  protocol:
+    name: dubbo # 指定的协议
+    port: 28082  # 指定的端口
+  scan:
+    basePackages: com.hzy.service # 接口列表和接口中的方法列表

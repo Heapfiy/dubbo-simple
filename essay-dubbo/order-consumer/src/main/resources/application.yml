@@ -1,0 +1,11 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: dubbo-consumer
+dubbo:
+  registry:
+    address: zookeeper://localhost:2181  # 连接到注册中心
+  protocol:
+    name: demo # 指定的协议
+    port: 28081  # 指定的端口
