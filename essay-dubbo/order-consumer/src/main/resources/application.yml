@@ -9,3 +9,5 @@ dubbo:
   protocol:
     name: demo # 指定的协议
     port: 28081  # 指定的端口
+  consumer:
+    check: false
